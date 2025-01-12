@@ -1,0 +1,14 @@
+return {}
+-- return {
+--     "robitx/gp.nvim",
+--     event = "VeryLazy",
+--     enabled = false,
+--     config = function(opts)
+--         -- local conf = {
+--         --     -- For customization, refer to Install > Configuration in the Documentation/Readme
+--         -- }
+--         require("gp").setup(conf)
+--
+--         -- Setup shortcuts here (see Usage > Shortcuts in the Documentation/Readme)
+--     end,
+-- }

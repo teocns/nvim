@@ -1,0 +1,19 @@
+return {}
+-- return {
+--   "task-manager.nvim",
+--   dev = true,
+--
+--   -- setup = function() require("task-manager").setup() end,
+--   run = ":UpdateRemotePlugins",
+--
+--   -- event = "VeryLazy",
+--   lazy = false,
+--
+--   cmd = {
+--     "TaskAdd",
+--     "TaskComplete",
+--     "TaskList",
+--     "TaskShow",
+--     "TaskTelescope",
+--   },
+-- }

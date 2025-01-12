@@ -1,0 +1,34 @@
+return {}
+
+
+-- return {
+--   "da-moon/telescope-toggleterm.nvim",
+--   -- name = "toggleterm"
+--   dependencies = {
+--     "akinsho/nvim-toggleterm.lua",
+--     "nvim-telescope/telescope.nvim",
+--     "nvim-lua/popup.nvim",
+--     "nvim-lua/plenary.nvim",
+--   },
+--   event = "TermOpen",
+--
+--   keys = {
+--     {
+--       "<leader>TT",
+--       -- "<cmd>TermSelect<CR>",
+--       "<cmd>Telescope toggleterm<CR>"
+--     },
+--     {
+--       "<leader>Tn",
+--       function()
+--         local Terminal = require("toggleterm.terminal").Terminal
+--         local newterm = Terminal:new({  hidden = false })
+--       end,
+--       -- Launch a new terminal, in a new tab
+--       "<cmd>terminal ++curwin<CR>",
+--     },
+--   },
+--   -- config = function()
+--   --    require("telescope").load_extension "toggleterm"
+--   -- end,
+-- }

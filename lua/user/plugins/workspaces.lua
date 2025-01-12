@@ -1,0 +1,26 @@
+return {
+  "natecraddock/workspaces.nvim",
+  -- event = "VeryLazy",
+  config = function() require("workspaces").setup {} end,
+  enabled = false,
+
+  keys = {
+    -- ["<leader>pa"] = ":WorkspacesAdd<CR>",
+    -- ["<leader>pa"] = ":WorkspacesAdd<CR>",
+    -- ["<leader>pd"] = ":WorkspacesAddDir<CR>",
+    -- ["<leader>pr"] = ":WorkspacesRemove<CR>",
+    -- ["<leader>pR"] = ":WorkspacesRemoveDir<CR>",
+    -- ["<leader>po"] = ":WorkspacesOpen<CR>",
+    -- ["<leader>ps"] = ":WorkspacesSyncDirs<CR>",
+    -- ["<leader>pl"] = ":WorkspacesList<CR>",
+    -- ["<leader>pL"] = ":WorkspacesListDirs<CR>",
+    { "<leader>pa", ":WorkspacesAdd<CR>", desc = "Add to workspace", noremap = true, mode = "n" },
+    { "<leader>pd", ":WorkspacesAddDir<CR>", desc = "Add directory to workspace", noremap = true, mode = "n" },
+    { "<leader>pr", ":WorkspacesRemove<CR>", desc = "Remove workspace", noremap = true, mode = "n" },
+    { "<leader>pR", ":WorkspacesRemoveDir<CR>", desc = "Remove directory from workspace", noremap = true, mode = "n" },
+    { "<leader>po", ":WorkspacesOpen<CR>", desc = "Open workspace", noremap = true, mode = "n" },
+    { "<leader>ps", ":WorkspacesSyncDirs<CR>", desc = "Sync directories", noremap = true, mode = "n" },
+    { "<leader>pl", ":WorkspacesList<CR>", desc = "List workspaces", noremap = true, mode = "n" },
+    { "<leader>pL", ":WorkspacesListDirs<CR>", desc = "List directories", noremap = true, mode = "n" },
+  },
+}
